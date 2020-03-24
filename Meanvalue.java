@@ -18,7 +18,7 @@ public class Meanvalue {
        public static double avg(double ...a) {
            double sum = 0;
            try {
-                   if (a < 0) {
+                   if (a<0) {
                        throw new RuntimeException();}
                    else{
                        sum = sum + a;
