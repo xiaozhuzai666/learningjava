@@ -18,16 +18,16 @@ public class Meanvalue {
        public static double avg(double ...a) {
            double sum = 0;
            try {
-                   if (a<0) {
-                       throw new RuntimeException();}
-                   else{
-                       sum = sum + a;
-                   }
-               } catch (Exception e){
+               if (a < 0) {
+                   throw new RuntimeException();
+               } else {
+                   sum = sum + a;
+               }
+           } catch (Exception e) {
                e.printStackTrace();
            }
-                   return sum / a.length;
-        }
+           return sum / a.length;
+       }
 
 
 
