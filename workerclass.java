@@ -5,9 +5,10 @@ public class workerclass extends personclass {
         super(myname, mygender, mynationality, myage);
         unit = myunit;
         workAge = myworkAge;
-        super.work();
+
     }
     public void work(){
+        super.work();
         System.out.println("工人的工作是盖房子!");
     }
 

@@ -8,7 +8,8 @@ public class studentclass extends personclass{
 
     }
     public void work(){
-        return name+"正在" +super.work()；
+        super.work();
+        System.out.println("学生需要学习！");
     }
 
 

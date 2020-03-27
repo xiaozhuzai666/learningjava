@@ -1,6 +1,6 @@
-public class testClass {
-    public static void main(String[] args) {
-        studentclass student = new studentclass(students);
-
-    }
-}
+//public class testClass {
+//    public static void main(String[] args) {
+//        StudentLeader a = new StudentLeader();
+//        a.meeting();
+//    }
+//}
