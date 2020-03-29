@@ -2,7 +2,7 @@ package DifferentWay;
 //以组合方式实现
     class Animal2{
         private void beat(){
-            System.out.println("动物有心跳");
+            System.out.println("动物一定有心跳");
         }
         public void breath(){
             beat();
@@ -18,7 +18,7 @@ package DifferentWay;
             a.breath();
         }
         public void fly(){
-            System.out.println("鸟在飞翔");
+            System.out.println("鸟在天空飞翔");
         }
     }
     class Wolf1{
