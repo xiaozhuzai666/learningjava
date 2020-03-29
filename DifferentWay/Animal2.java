@@ -18,7 +18,7 @@ package DifferentWay;
             a.breath();
         }
         public void fly(){
-            System.out.println("鸟在飞翔！");
+            System.out.println("鸟在飞翔");
         }
     }
     class Wolf1{
