@@ -30,7 +30,7 @@ package DifferentWay;
             a.breath();
         }
         public void run(){
-            System.out.println("狼在跑！");
+            System.out.println("狼在跑");
         }
     }
      class CompositeTest{
