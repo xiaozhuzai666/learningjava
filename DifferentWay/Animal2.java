@@ -6,7 +6,7 @@ package DifferentWay;
         }
         public void breath(){
             beat();
-            System.out.println("动物会呼吸");
+            System.out.println("动物一定会呼吸");
         }
     }
     class Bird1{
