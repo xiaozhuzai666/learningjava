@@ -1,12 +1,12 @@
-import java.lang.Math;
+import java.lang.*;
 interface Shape1{
     abstract double Area();
 }
-class Rectangle implements Shape1{
+class Rectangle1 implements Shape1{
     private double a;
-    Rectangle(){
+    Rectangle1(){
     }
-    Rectangle(double a){
+    Rectangle1(double a){
         this.a=a;
     }
     public double getX(){
@@ -57,15 +57,14 @@ class Test6 {
             n=(int)(Math.random()*5);//随机函数产生随机值
             switch(n){
                 case 1:s[i]=new Circle();break;//父类引用指向子类对象
-                case 2:s[i]=new Rectangle();break;
+                case 2:s[i]=new Rectangle1();break;
                 case 3:s[i]=new Star();break;
             }
         }
-        for(int i=0;i<s.length;i++){
-            if(s[i].Area()==0){
-                System.out.println(s[i]+"是个Star");
-            }
-            else System.out.println(s[i].Area());
+        for (Shape1 shape1 : s) {
+            if (shape1.Area() == 0) {
+                System.out.println(shape1 + "是个Star");
+            } else System.out.println(shape1.Area());
         }
 
     }
