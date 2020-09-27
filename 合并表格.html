@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>合并表格</title>
+</head>
+<body>
+<!--合并表格三部曲：
+  1.先确定是跨行还是跨列
+  2.根据先上后下，先左后右的原则找出目标单元格
+  rowspan:跨行合并
+  3，删除多余的单元格-->
+      <table border="1" width="500" height="200" align="center" cellspacing="0" cellpadding="20">
+          <tr>
+              <td>zgd</td>
+              <td>男</td>
+              <td>18</td>
+              <td rowspan="2">照片</td>
+          </tr>
+          <tr>
+              <td>身高2米</td>
+              <td>汉族</td>
+              <td>未婚</td>
+<!--              <td>照片</td>-->
+          </tr>
+          <tr>
+              <td colspan="4">个人特长</td>
+<!--              <td>个人特长</td>-->
+<!--              <td>个人特长</td>-->
+<!--              <td>个人特长</td>-->
+          </tr>
+      </table>
+
+</body>
+</html>

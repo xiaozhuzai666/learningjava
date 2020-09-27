@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>表单</title>
+</head>
+<body>
+<!--1.表单域 form
+    2.表单文件（提示文本）
+    3.表单控件-->
+<!--text:文本框
+    value:默认值
+    placeholder；提示性文字
+    checkbox: 复选框
+    checked:默认选择
+    radio:单选框
+    button：按钮,没有默认value值
+    submit：提交，有默认的值
+    reset: 重置
+    disabled:设置文本框禁用
+    readonly;只读文本框，不能修改
+    selected:默认下拉列表首选
+    name:名字。区分数据来自于哪个标签-->
+<form action="/" method="get">
+用户名:<input type="text" placeholder="请输入用户名" name="username"><br>
+密码:<input type="password" placeholder="密码" name="pwd"><br>
+性别：男：<input type="radio" name="sex"/>女：<input type="radio" name="sex"/><br>
+喜欢吃的食物：
+   鱼<input type="checkbox" name="eat" checked="checked"/>
+   炸鸡<input type="checkbox" name="eat"/>
+   可乐<input type="checkbox" name="eat"/>
+   辣条<input type="checkbox" name="eat"/>
+<input type="button" value="我是一个按钮"/>
+<input type="file"/>
+<!--文本域-->
+备注：<textarea>
+    文本内容
+</textarea>
+<br>
+<!--下拉列表-->
+<select>
+    <option selected="selected">选项1</option>
+    <option>选项2</option>
+</select>
+<br>
+</form>
+</body>
+</html>
