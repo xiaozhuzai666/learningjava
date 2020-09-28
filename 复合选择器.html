@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>复合选择器</title>
+    <style>
+<!--复和选择器-->
+     <!--1.后代1选择器， 空格隔开；
+      2。子元素选择器 >号表示；
+       3.交集选择器  ，既是， 又是；
+        4,并集选择器：用逗号隔开
+          5.伪类选择器：
+            1.未访问的连接：link
+            2.已经访问过的连接：visited
+            3.鼠标移动到连接时状态：hover
+            4.鼠标选定连接时状态：当点击的时候，按下，不松开：action
+
+-->
+        div a{
+
+        }
+        /*p.check{*/
+        /*    color: red;*/
+        /*}*/
+        p,div{
+            color: red;
+        }
+    </style>
+</head>
+<body>
+<div>
+<a href="块级标签.html">内部链接</a>
+<a href="块级标签.html">超链接</a>
+<a href="块级标签.html">超链接</a>
+<a href="块级标签.html">超链接</a>
+</div>
+<a href="复合选择器.html">外部链接</a>
+<a href="复合选择器.html">外部链接</a>
+<a href="复合选择器.html">外部链接</a>
+<p class="check">红色</p>
+<p class="check">红色</p>
+<p class="check">红色</p>
+<div class="check">红色</div>
+<div class="check">红色</div>
+<div class="check">红色</div>
+<p>黑色</p>
+<p>黑色</p>
+<p>黑色</p>
+</body>
+</html>
